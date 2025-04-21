@@ -1,0 +1,44 @@
+# Author Info
+# GitHub: UberHelmsman
+# Discord: mariusdemeier
+
+# Maintainer Info
+# GitHub: UberHelmsman
+# Discord: mariusdemeier
+
+# Shuttle Notes:
+# 
+- type: vessel
+  id: Eclipse
+  parent: BaseVessel
+  name: ASC Eclipse
+  description: A medium-size luxury space yacht designed for tourism, business meetings 
+  price: 77777 # actual grid is 46150, but its *elete*
+  category: Medium
+  group: Shipyard
+  shuttlePath: /Maps/_NF/Shuttles/eclipse.yml
+  guidebookPage: ShipyardEclipse
+  class:
+  - Civilian
+  engine:
+  - Uranium
+
+- type: gameMap
+  id: Eclipse
+  mapName: 'ASC Eclipse'
+  mapPath: /Maps/_NF/Shuttles/eclipse.yml
+  minPlayers: 0
+  stations:
+    Eclipse:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Eclipse {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            Contractor: [ 0, 0 ]
+            Pilot: [ 0, 0 ]
+            Mercenary: [ 0, 0 ]

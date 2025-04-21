@@ -1,0 +1,22 @@
+<Document>
+  # ECLIPSE-CLASS LUXURY YACHT
+  <Box>
+  <GuideEntityEmbed Entity="ChairWoodFancyBlue" Caption="deluxe lounge"/>
+  <GuideEntityEmbed Entity="DrinkWineBottleFull" Caption="luxurious drinks"/>
+  <GuideEntityEmbed Entity="Thruster" Caption="fast and nimble"/>
+  </Box>
+  [color=#a4885c]Ship Size:[/color] Medium
+
+  [color=#a4885c]Recommended Crew:[/color] 3
+
+  [color=#a4885c]Power Gen Type:[/color] Uranium
+
+  [color=#a4885c]Expeditions:[/color] None
+
+  [color=#a4885c]IFF Console:[/color] None
+
+  "A medium size grandeur fast cruiser for VIP transportation, tourism or high-level business trips. Booze cellar as a treat."
+
+  [italic]Designed and contrusted by Premium Bureau at Atlantis Shipbuilding Corporation.[/italic]
+
+</Document>

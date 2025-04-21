@@ -22,6 +22,7 @@
   - ShipyardComet
   - ShipyardConstruct
   - ShipyardEagle
+  - ShipyardEclipse
   - ShipyardGarden
   - ShipyardGasbender
   - ShipyardGourd
@@ -142,6 +143,11 @@
   id: ShipyardEagle
   name: guide-entry-shipyard-eagle
   text: "/ServerInfo/_NF/Guidebook/Shipyard/Eagle.xml"
+
+- type: guideEntry
+  id: ShipyardEclipse
+  name: guide-entry-shipyard-eclipse
+  text: "/ServerInfo/_NF/Guidebook/Shipyard/Eclipse.xml"
 
 - type: guideEntry
   id: ShipyardGarden
